@@ -285,13 +285,11 @@ function createAboutMenu() { // create menu with all cipher catergories
 	o += '</center>'
 	// o += '<div style="margin: 0.5em;"></div>'
 	o += '<div style="margin: 1em;"></div>'
-	o += '<input class="intBtn" type="button" value="Original Gematro" onclick="gotoGematro()">'
-	o += '<div style="margin: 0.5em;"></div>'
 	o += '<input class="intBtn" type="button" value="Quickstart Guide" onclick="displayQuickstartGuide()">'
 	o += '<div style="margin: 0.5em;"></div>'
-	o += '<input class="intBtn" type="button" value="Databases (Mega)" onclick="gotoMega()">'
-	o += '<div style="margin: 0.5em;"></div>'
 	o += '<input class="intBtn" type="button" value="GitHub Repository" onclick="gotoGitHubRepo()">'
+	o += '<div style="margin: 0.5em;"></div>'
+	o += '<input class="intBtn" type="button" value="Databases (Mega)" onclick="gotoMega()">'
 	o += '<div style="margin: 0.5em;"></div>'
 	o += '<input class="intBtn" type="button" value="Gematria Blog" onclick="gotoBlogger()">'
 	o += '<div style="margin: 0.5em;"></div>'
@@ -302,11 +300,9 @@ function createAboutMenu() { // create menu with all cipher catergories
 	document.getElementById("calcOptionsPanel").innerHTML = o
 }
 
-function gotoGematro() { window.open("https://gematro.github.io/", "_blank") }
+function gotoGitHubRepo() { window.open("https://github.com/Alektryon/gematro/", "_blank") }
 
 function gotoMega() { window.open("https://mega.nz/folder/xggFAICR#9o8V2dCM3rEVjh7eDx0JDQ", "_blank") }
-
-function gotoGitHubRepo() { window.open("https://github.com/Alektryon/gematro/", "_blank") }
 
 function gotoBlogger() { window.open("https://gematriaresearch.blogspot.com/", "_blank") }
 
