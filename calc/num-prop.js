@@ -114,11 +114,11 @@ function listNumberPropertiesAlt(val) {
 
 const getNumXenotation = n => { if (n == 1) { return '(-P)&#8226;' } else if (n == 0) { return '((-P))&#8226;' }; return n2x(n).map(stringify).join('') }
 const stringify = a => { if (Array.isArray(a)) { return '(' + a.reduce((a, b) => a + stringify(b), '') + ')' } else { return a } }
-const shuffle = a => { a.sort((b, c) => Math.round(Math.random()) ? 1 : -1); return a }
+// const shuffle = a => { a.sort((b, c) => Math.round(Math.random()) ? 1 : -1); return a }
 const n2x = n => { // 3 -> (:), middle dot - &#183;
 	const factors = getNumFactorization(n)
-	return shuffle(factors).map(f => f == 2 ? '&#8226;' : n2x(primeNums.indexOf(f)+1))
-	// return factors.map(f => f == 2 ? ':' : n2x(primeNums.indexOf(f)+1))
+	// return shuffle(factors).map(f => f == 2 ? '&#8226;' : n2x(primeNums.indexOf(f)+1))
+	return factors.map(f => f == 2 ? '&#8226;' : n2x(primeNums.indexOf(f)+1))
 };
 
 function strToXenotation(str) {
