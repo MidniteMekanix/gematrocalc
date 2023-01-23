@@ -12,7 +12,7 @@ function removeNotMatchingPhrases() {
 	highlt = document.getElementById("highlightBox").value.replace(/ +/g," ") // get value, remove double spaces
 	highlt_num = highlt.split(" ") // create array from string, space as delimiter
 	highlt_num = highlt_num.map(function (x) { return parseInt(x, 10); }) // parse string array as integer array to exclude quotes
-	highlt_num = removeZeroHlt(highlt_num)
+//	highlt_num = removeZeroHlt(highlt_num)
 	
 	// create a copy of history, since matching is destructive
 	if (userHistory.length == 0) userHistory = [...sHistory] // don't make new copies until filter is reset
