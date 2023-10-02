@@ -1371,7 +1371,7 @@ function phraseBoxKeypress(e) { // run on each keystroke inside text box - onkey
 
 function addPhraseToHistory(phr, upd) { // add new phrase to search history
 	var phrPos
-	if (phr !== "" && isNaN(phr)) { // if input is not empty and not a number
+	if (phr !== "" /* && isNaN(phr) */) { // if input is not empty and not a number
 		phrPos = sHistory.indexOf(phr);
 		if (phrPos > -1) { // if phrase is in history
 			sHistory.splice(phrPos, 1) // first remove it from array
@@ -1383,7 +1383,7 @@ function addPhraseToHistory(phr, upd) { // add new phrase to search history
 
 function addPhraseToHistoryUnshift(phr, upd) { // add new phrase to the beginning
 	var phrPos
-	if (phr !== "" && isNaN(phr)) { // if input is not empty and not a number
+	if (phr !== "" /* && isNaN(phr) */) { // if input is not empty and not a number
 		phrPos = sHistory.indexOf(phr);
 		if (phrPos > -1) { // if phrase is in history
 			sHistory.splice(phrPos, 1) // first remove it from array
