@@ -26,7 +26,7 @@ function displayQuickstartGuide() {
 
 	o += '<p class="qgMedium">Number Properties</p>\n<ul><li><span class="qgBold">"Ctrl"</span> key pressed, mouse over number - show number properties</li><li><span class="qgBold">"Shift"</span> key pressed, mouse over number - show additional number properties</li><li>All properties are supported only for values up to 10 million</li><li>Drag cursor across the tooltip to close it<br>Mobile devices - click on the tooltip first, then click outside to close<br><span class="qgNote">Note: Number Properties are available inside Enabled Ciphers Table, History Table and Query Table</span></li></ul>'
 
-	o += '<p class="qgMedium">Cipher/Breakdown Chart</p>\n<ul><li><span class="qgBold">"Left Click"</span> on letters/values to highlight cells</li></ul>'
+	o += '<p class="qgMedium">Cipher/Breakdown Chart</p>\n<ul><li><span class="qgBold">Cipher Chart</span> can be used as a virtual keyboard</li><li><span class="qgBold">"Left Click"</span> on Cipher Name to switch to uppercase letters</li><li><span class="qgBold">"Left Click"</span> on letters to type</li><li><span class="qgBold">"Left Click"</span> on numbers/letters to highlight cells (<span class="qgBold">Breakdown Chart</span>)</li></ul>'
 
 	o += '<p class="qgMedium">History Table</p><ul><li><span class="qgBold">"Left Click"</span> on value - toggle blinking effect (temporary)</li><li><span class="qgBold">"Right Click"</span> on value - toggle cell visibility (temporary)</li><li><span class="qgBold">"Shift + Left Click"</span> on cipher name - disable cipher</li><li><span class="qgBold">"Shift + Left Click"</span> on phrase - delete phrase from history</li><li><span class="qgBold">"Ctrl + Left Click"</span> on phrase - load phrase into <span class="qgBold">Phrase Box</span></li><li><span class="qgBold">"Ctrl + Right Click"</span> on phrase - reorder phrases, select the same phrase to cancel</li><li><span class="qgBold">"Ctrl + Left Click"</span> on value (cell) - toggle highlighting for number<br>Highlighter always recalculates table, temporary effects are removed<br><span class="qgNote">Note: Click on cell, not on the number itself, otherwise you will open number properties</span></li></ul>'
 
@@ -79,7 +79,7 @@ function displayQuickstartGuide() {
 	o += '<hr class="numPropSeparator">'
 	o += '<p><span class="qgBold2">Export</p>'
 
-	o += '<ul><li><span class="qgBold">"Print Cipher Chart", etc</span> - render correspondent element as an image (PNG), image preview is opened first<br><span class="qgNote">Note: If text or table are misaligned, click "Refresh" button to generate a new image</span></li>'
+	o += '<ul><li><span class="qgBold">"Print Cipher Chart", etc</span> - render corresponding element as an image (PNG), image preview is opened first<br><span class="qgNote">Note: If text or table are misaligned, click "Refresh" button to generate a new image</span></li>'
 
 	o += '<li><span class="qgBold">"Import File"</span> - import a <span class="qgBold">.txt</span> file (one phrase per line), previously exported CSV history, exported matches or user ciphers<br><span class="qgNote">Note: You can also drag and drop file into Phrase Box</span></li>'
 
@@ -137,8 +137,14 @@ function displayContactInfo() {
 
 	var o = '<div class="contactInfo">'
 	o += '<p><span class="qgBold2">Contacts</p>'
-
-	o += '<div style="margin-bottom: 1.25em;">Send your feedback, suggestions or requests to <a class="qgLink" href="mailto:gematro@hotmail.com">gematro@hotmail.com</a></div>'
+	
+	o += '<hr class="numPropSeparator">'
+	
+	o += '<div style="margin-bottom: 1.25em;"><span class="qgBold">GEMATRO</span> is open source, however,<br><br><span class="qgBold">The original author of GEMATRO does not endorse or promote any forks that change calculator name, logo, contact information, or do rebranding,</span><br><br>especially when it is done with the intention to impersonate the original author and/or misrepresent his opinion on particular use/misuse of this software.<br><br><span class="qgBold">Original calculator is available only at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span></div>'
+	
+	o += '<hr class="numPropSeparator">'
+	
+	o += '<div style="margin-top: 1em;margin-bottom: 1.25em;">Send your feedback to <a class="qgLink" href="mailto:mmiikhaa@gmail.com">mmiikhaa@gmail.com</a></div>'
 	
 	o += '<hr class="numPropSeparator">'
 
