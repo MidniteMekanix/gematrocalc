@@ -140,7 +140,7 @@ function displayContactInfo() {
 	
 	o += '<hr class="numPropSeparator">'
 	
-	o += '<div style="margin-bottom: 1.25em;"><span class="qgBold">GEMATRO</span> is open source, however,<br><br><span class="qgBold">The original author of GEMATRO does not endorse or promote any forks that change calculator name, logo, contact information, or do rebranding,</span><br><br>especially when it is done with the intention to impersonate the original author and/or misrepresent his opinion on particular use/misuse of this software.<br><br><span class="qgBold">Original calculator is available only at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span></div>'
+	o += '<div style="margin-bottom: 1.25em;"><span class="qgBold"><br>Original calculator *was* available only at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span><br><br>... at least until its author decided to delete it. Again.<br></div>'
 	
 	o += '<hr class="numPropSeparator">'
 	
