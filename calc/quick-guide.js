@@ -140,7 +140,7 @@ function displayContactInfo() {
 	
 	o += '<hr class="numPropSeparator">'
 	
-	o += '<div style="margin-top: 1em;margin-bottom: 1.25em;">The original Gematro *was* available at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span><br><br>... at least until its author decided to delete it. Again.<br></div>'
+	o += '<div style="margin-top: 1em;margin-bottom: 1.25em;">This calculator that youʼre using was adapted by Luís Gonçalves, based on the original GEMATRO calculator by Saun Virroco.<br><br>The original calculator can only be found on:<br><a class="qgLink" href="https://gematro.github.io" target="_blank">https://gematro.github.io</a></span></div>'
 	
 	o += '<hr class="numPropSeparator">'
 	
