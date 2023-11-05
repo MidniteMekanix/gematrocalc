@@ -140,7 +140,7 @@ function displayContactInfo() {
 	
 	o += '<hr class="numPropSeparator">'
 	
-	o += '<div style="margin-top: 1em;margin-bottom: 1.25em;">The original GEMATRO *was* available at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span><br><br>... at least until its author decided to delete it. Again.<br></div>'
+	o += '<div style="margin-top: 1em;margin-bottom: 1.25em;">The original Gematro *was* available at<br><a class="qgLink" href="https://gematro.github.io">https://gematro.github.io</a></span><br><br>... at least until its author decided to delete it. Again.<br></div>'
 	
 	o += '<hr class="numPropSeparator">'
 	
